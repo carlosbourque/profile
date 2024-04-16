@@ -1,8 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
     "language": "ES",
-    "MACVersion": "0.3"
+    "MACVersion": "0.5"
   },
   "aboutMe": {
     "profile": {
@@ -11,28 +11,29 @@
       "title": "Software Developer specializing in Azure, C# and T-SQL. Delivering scalable and secure cloud solutions",
       "description": "Como Software Developer con más de 15 años de experiencia, me especializo en tecnologías C# y Microsoft Azure. Mi experiencia radica en el desarrollo de aplicaciones para gestionar diversos tipos de empresas. \n\nAlgunos ejemplos:\n\n  - Como technical lead en Connectorfy, lideré un equipo de hasta 7 personas incluyendo frontend, backend, datos y diseño gráfico. Conseguimos crear un sistema desde cero capaz de recoger en tiempo real datos de diferentes sistemas de clientes, transformarlos y guardarlos en un repositorio común. Mis principales tareas fueron la arquitectura del sistema, el diseño de las bases de datos en Azure SQL y los procesos ETLs. Creé los primeros procesos utilizando Data Factory y Databricks usando notebooks de PySpark. Más adelante, conseguimos llegar a hacer streaming de datos con Event Hubs y Azure Functions y, posteriormente, redujimos costes utilizando Storage Queues y Azure Functions. Diseñé e implementé los entornos de desarrollo en Docker así como los de pruebas y producción usando Azure DevOps (CI/CD) y bicep para la gestión de la infraestructura en Azure.\n\n  - Como socio y tenhnical lead en Siros, diseñé y desarrollé desde cero un software PMS propio para la gestión de empresas de turismo. Liderando un equipo de hasta 3 personas conseguimos una solución 100% alojada en Microsoft Azure, utilizando Service Apps y SQL Azure. Automaticé todo el despliegue a través de pipelines de Azure Devops. Incluimos en el producto paneles de control hechos en PowerBI para la gestión interna de la empresas.\n\n  - Como desarrollador en Petchey Leisure, trabajé junto a un equipo de 8 personas en la creación de un software propio en .Net Framework y MSSQL que gestionara las vacaciones de más de 200.000 clientes. Incluyendo la creación de una pasarela de pagos, un motor de reserva y la gestión integral de la propia empresa.\n\nSoy un apasionado por aprender nuevas tecnologías y utilizar mi conocimiento para desarrollar software que transforme la industria. Siempre estoy buscando desafíos como analista de datos o technical lead, donde pueda aprovechar mis habilidades y experiencia para generar un impacto significativo. \n\n¡Conectémonos para discutir cómo puedo contribuir a su equipo!",
       "avatar": {
-        "alt": "1671643019972.jpg",
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/04/12/57c27c8b-56ba-4635-a555-d1ef05dffdae_1671643019972.jpg"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/04/12/57c27c8b-56ba-4635-a555-d1ef05dffdae_1671643019972.jpg",
+        "alt": "1671643019972.jpg"
       },
       "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJI_ovED7icg0R9GIZm1HcWCA)",
         "country": "España",
         "region": "Andalucía",
-        "municipality": "Fuengirola",
-        "notes": "Autocompleted using Google Maps API"
+        "municipality": "Fuengirola"
       }
     },
     "relevantLinks": [
       {
-        "type": "other",
-        "URL": "https://bourque.es"
+        "type": "linkedin",
+        "URL": "https://linkedin.com/in/carlosbourque"
       },
       {
         "type": "github",
         "URL": "https://github.com/carlosbourque"
       },
       {
-        "type": "linkedin",
-        "URL": "https://linkedin.com/in/carlosbourque"
+        "type": "other",
+        "URL": "https://bourque.es",
+        "description": "Web Personal"
       }
     ]
   },
@@ -93,48 +94,20 @@
   "knowledge": {
     "languages": [
       {
-        "name": "English",
+        "name": "EN",
+        "fullName": "Inglés",
         "level": "Full professional proficiency"
       },
       {
-        "name": "Spanish",
+        "name": "ES",
+        "fullName": "Español",
         "level": "Native or bilingual proficiency"
       }
     ],
     "hardSkills": [
       {
         "skill": {
-          "name": "Redis",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": ".NET",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "SQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "ASP.net",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "MySQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Azure",
           "type": "technology"
         }
       },
@@ -146,13 +119,13 @@
       },
       {
         "skill": {
-          "name": "PySpark",
+          "name": "ASP.net",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Databricks",
+          "name": "Azure",
           "type": "technology"
         }
       },
@@ -164,7 +137,49 @@
       },
       {
         "skill": {
+          "name": "C#",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Databricks",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Jira",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MySQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PySpark",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Redis",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQL",
           "type": "technology"
         }
       },
@@ -176,20 +191,28 @@
       },
       {
         "skill": {
-          "name": "C#",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "VB.NET",
           "type": "technology"
         }
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Adaptabilidad al cambio",
+          "type": "practice"
+        }
       },
       {
         "skill": {
-          "name": "Jira",
-          "type": "technology"
+          "name": "Aprendizaje Continuo",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Atención al detalle",
+          "type": "practice"
         }
       }
     ]
@@ -198,9 +221,16 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://linkedin.com/in/carlosbourque"
+          "URL": "https://linkedin.com/in/carlosbourque",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/carlosbourque",
+          "type": "github"
         }
+      ],
+      "contactMails": [
+        "carlos@bourque.es"
       ]
     },
     "preferences": {
@@ -224,7 +254,7 @@
       ],
       "preferredRoles": [
         "Backend Developer",
-        "Data Analysis & BI",
+        "Data Analyst & BI",
         "Data Engineer",
         "Data Scientist",
         "Software Architect",
@@ -232,5 +262,8 @@
       ]
     },
     "status": "searchingActively"
+  },
+  "manfredSpecificData": {
+    "desiredJobDescription": "Mi empleo ideal sería como programador, data engineer o data analyst en un proyecto innovador. Con énfasis en la investigación, IA. También me motivan mucho los proyectos que tengan que ver con el sector de la salud."
   }
 }
