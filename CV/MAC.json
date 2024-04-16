@@ -264,6 +264,28 @@
     "status": "searchingActively"
   },
   "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": ".Net Core",
+        "type": "technology"
+      },
+      {
+        "name": "Azure",
+        "type": "technology"
+      },
+      {
+        "name": "Azure Functions",
+        "type": "technology"
+      },
+      {
+        "name": "Databricks",
+        "type": "technology"
+      },
+      {
+        "name": "SQL",
+        "type": "technology"
+      }
+    ],
     "desiredJobDescription": "Mi empleo ideal sería como programador, data engineer o data analyst en un proyecto innovador. Con énfasis en la investigación, IA. También me motivan mucho los proyectos que tengan que ver con el sector de la salud."
   }
 }
