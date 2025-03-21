@@ -228,9 +228,6 @@
           "URL": "https://github.com/carlosbourque",
           "type": "github"
         }
-      ],
-      "contactMails": [
-        "carlos@bourque.es"
       ]
     },
     "preferences": {
@@ -249,6 +246,10 @@
         },
         {
           "name": "Python",
+          "type": "technology"
+        },
+        {
+          "name": "Snowflake",
           "type": "technology"
         }
       ],
